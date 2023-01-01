@@ -127,6 +127,9 @@ nav ul li a:hover{
     background: var(--cor4);
     color: var(--cor7);
 }
+.quebra{
+    display: none;
+}
 
 nav .menu-btn i{
     color: var(--azul5);
@@ -145,7 +148,9 @@ nav .menu-btn i{
         font-size: 1.5rem;
         font-weight: 700;
     }    
-
+    .quebra{
+        display: block;
+    }
     .label{
         transform: scale(.9);
     }
